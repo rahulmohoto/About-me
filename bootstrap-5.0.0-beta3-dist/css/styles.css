@@ -14,7 +14,7 @@ body {
 }
 
 #logo-img {
-	background: url('bootstrap-5.0.0-beta3-dist/images/Logo.png') no-repeat;
+	background: url('../images/Logo.png') no-repeat;
 	width: 100px;
 	height: 100px;
 	margin: 10px 15px 10px 0;
