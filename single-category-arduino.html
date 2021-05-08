@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta3-dist/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+
+<header>
+    <nav id="header-nav" class="navbar navbar-expand-sm">
+      <div class="container">
+         <div class="navbar-nav">
+          <a href="index.html" class="d-none d-sm-block">
+            <div id="logo-img" alt="Logo Image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Tech Restaurant</h1></a>
+            <p>
+              <img src="images/name_icon.png" alt="name_icon">
+              <span>Home of Microcontroller Projects Receipe</span>
+            </p>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-align-justify"></i></span>
+          </button>
+         
+      </div>
+
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav nav-pills ms-auto justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">
+                <i class="fas fa-home"></i><br class="d-block">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="menu-categories.html">
+                <i class="fas fa-cloud-meatball"></i><br class="d-block">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fas fa-info"></i><br class="d-block">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <i class="fas fa-award"></i><br class="d-block">Awards</a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a class="nav-link" href="tel:+8801793886634">
+                <span>01793886634</span><br class="d-block"><span id="phone_delivery">* Connect</span></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+
+  <div id="call-btn" class="d-block d-md-none">
+    <a class="btn" href="tel:+8801793886634">
+    <span class="fas fa-square-phone"></span>
+    01793886634
+    </a>
+    </div>
+  <div id="xs-deliver" class="text-center d-block d-md-none">* Connect with me</div>
+
+  <div id="main-content" class="container">
+    <h2 id="menu-categories-title" class="text-center">Arduino Projects</h2>
+    <div class="text-center">
+      Find the Arduino projects here
+    </div>
+    <section class="row">
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>Arduino01</div>
+              <img class="img-fluid" width="250" height="150" src="images/snakes.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$10</div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">SnakePedia</h3>
+            <p class="menu-item-details">A snake game, which is built on 8*8 LED dot matrix display with dedicated push buttons to control the movement. <a href="https://www.hackster.io/rahulmohoto/snakepedia-dd9707">Want to make the project?</a></p>
+          </div>
+        </div>
+        <hr class="d-sm-block d-md-none">
+      </div>
+
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>Arduino02</div>
+              <img class="img-fluid" width="250" height="150" src="images/Arduino-Music-Vis.gif" alt="Item">
+            </div>
+            <div class="menu-item-price">$10</div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Music Spectrum Visualizer with Arduino Nano</h3>
+            <p class="menu-item-details">Visualizes the peak of frequencies with different bars on 8*8 led dot matrix using Arduino Nano. <a href="https://www.hackster.io/rahulmohoto/music-spectrum-visualizer-with-arduino-nano-f3779e">Want to make the project?</a></p>
+          </div>
+        </div>
+        <hr class="d-sm-block d-md-none">
+      </div>
+
+    </section>
+  </div>
+
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Saturday: 11:15am - 10:00pm<br>
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          House-221, 01 Begum Rokeya Sharani Road<br>
+          Shalbon, Rangpur-5400, Bangladesh
+          <p>* Delivery area within whole country, charges applied.</p>
+          <hr class="d-block d-sm-none">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Do-what moves you"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Rahul Mohoto 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="bootstrap-5.0.0-beta3-dist/js/jquery.min.js"></script>
+  <script src="bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/6d066cf82e.js" crossorigin="anonymous"></script>
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
