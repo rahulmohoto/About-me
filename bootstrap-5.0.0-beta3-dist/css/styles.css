@@ -194,6 +194,7 @@ button.navbar-toggler {
 	width: 100%;
 	height: 200px;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
 	background-color: white;
 }
@@ -232,6 +233,10 @@ button.navbar-toggler {
   width: 100px;
   background-color: #557c3e;
   text-align: center;
+}
+.menu-item-photo .img-fluid {
+  width: 250px;
+  height: 150px;
 }
 .menu-item-description {
   padding-right: 30px;
